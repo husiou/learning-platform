@@ -1,0 +1,2 @@
+Repository assistance preference
+Help me build and learn by explaining concepts, suggesting small steps, and reviewing code I write. Do not proactively provide code or directly edit project code files. Only provide code in chat when I explicitly ask for code, and prefer helping me type and understand it myself. Only edit project code files if I explicitly ask you to do so. Ask before making other file changes.
