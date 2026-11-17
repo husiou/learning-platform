@@ -1,50 +1,48 @@
-Sports Maze — Technology Stack
-Programming Languages
-TypeScript: Main programming language; type-safe game logic and frontend development.
-JavaScript: Web programming fundamentals and asynchronous programming.
-Frontend
-React: User interface, menus, settings, navigation, and leaderboards.
-Vite: Development server and build tool.
-HTML5: Application structure and Canvas integration.
-CSS: Styling, layouts, and animations.
-Tailwind CSS: Responsive UI styling.
-Game Engine and Rendering
-Phaser 3: 2D game engine, rendering, sprites, animations, physics, and collision detection.
-HTML5 Canvas: 2D game rendering.
-Tiled: Visual tilemap and maze-level design.
-Game Logic and Algorithms
-Depth-First Search (DFS): Procedural maze generation.
-Breadth-First Search (BFS): Shortest-path calculation in unweighted mazes.
-A Pathfinding:* Intelligent enemy navigation and optimized pathfinding.
-2D Arrays: Maze grid representation and collision mapping.
-Graph Theory: Maze representation, traversal, and connectivity.
-JSON: Level data and game configuration storage.
-Backend and Real-Time Communication
-Node.js: Backend JavaScript runtime.
-Express.js: REST API development and backend routing.
-Socket.IO: Real-time multiplayer communication and player synchronization.
-Supabase: Authentication, player accounts, and online data.
-PostgreSQL: Player profiles, match history, and leaderboards.
-Redis: Optional caching and temporary multiplayer game-state storage.
-Testing and Code Quality
-Vitest: Unit testing for game logic and algorithms.
-Playwright: End-to-end browser testing.
-ESLint: Code quality and error detection.
-Prettier: Consistent code formatting.
-Networking and Security
-HTTP / REST APIs: Client-server communication.
-WebSockets: Persistent, bidirectional multiplayer communication.
-JWT / Session Authentication: Secure player authentication.
-Input Validation: Server-side validation of player actions and game data.
-Development Tools
-VS Code: Code editor.
-Git: Version control.
-GitHub: Repository hosting and collaboration.
-GitHub Codespaces: Cloud development environment.
-GitHub Copilot: AI coding assistance.
-Deployment and DevOps
-Docker: Application containerization.
-Docker Compose: Local development environment.
-GitHub Actions: Automated testing and CI/CD pipelines.
-Vercel: Frontend deployment and hosting.
-Render: Backend deployment and hosting.
+Learning Platform — Technologies
+
+The goal is a clear, useful learning platform, with project choices that also
+build skills commonly used in web-development internships. Treat this as a
+focused roadmap, not a list of tools that all need to be added at once.
+
+Build first: the MVP
+- HTML: semantic page structure and accessible forms.
+- CSS: responsive layouts, visual design, and simple interactions.
+- JavaScript, then TypeScript: browser behavior first; add types as the app
+  grows.
+- React: reusable UI for topic pages, navigation, and learning activities.
+- Vite: local development server and frontend build tool.
+- Git and GitHub: version control, branches, readable commits, issues, and
+  pull requests.
+
+Use those skills to build the MVP
+- A polished, responsive interface that separates the learning topics.
+- Topic pages for content creation, hardware, cybersecurity, and coding.
+- Clear explanations, examples, and navigation between lessons.
+- Accessible controls, useful empty states, and working on mobile and desktop.
+
+Add when the MVP needs them
+- React Router: multiple pages and lesson URLs.
+- Vitest: focused tests for lesson and quiz behavior.
+- Playwright: browser-level checks for important user journeys.
+- Node.js and Express: a backend API when the app needs server-side features.
+- PostgreSQL: persistent accounts and learning progress when needed.
+- HTTP and REST basics: communication between the frontend and backend.
+- Authentication, authorization, input validation, and privacy fundamentals
+  before storing personal progress data.
+- Vercel or a similar host: publish the frontend so others can try it.
+
+Future learning-platform features
+- Quizzes and assignments inspired by the lesson content.
+- Saved progress, introduced after deciding what data to store and how to
+  protect it.
+- Content creation and editing workflows if lessons need to be managed in the
+  app.
+- Advertising only much later; it is not needed for the MVP.
+
+Topics the platform teaches (not technologies required to build it)
+- Content creation: editing, uploading, and how recommendation algorithms
+  affect content.
+- Hardware: GPUs, CPUs, storage, and common cables.
+- Cybersecurity: online safety and encryption, explained responsibly.
+- Coding: what different programming languages are for and how applications
+  are made.
